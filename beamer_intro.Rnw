@@ -1,0 +1,58 @@
+\documentclass{beamer}
+%Information to be included in the title page:
+\title{Introduction}
+\author{Rene Ingersoll}
+\institute{Overleaf}
+\date{2021}
+
+\begin{document}
+
+\frame{\titlepage}
+
+%about me slide
+\begin{frame}
+\frametitle{About Me}
+\begin{itemize}
+ \item I was born on February 17th 1997 in Kearney, Ne
+ \item Currently working on my master's in Geography
+ \item I love to learn about the world, I even studied abroad in Japan for a year
+ \item I plan to graduate in the spring and pursue a career as a GIS Analyst
+\end{itemize}
+\end{frame}
+
+%favorite animal slide
+\begin{frame}{My Favorite Animal: White Tiger}
+I love animals with white fur, I find them to be very majestic.
+\centering
+    \includegraphics{whitetiger.jpg}
+
+\end{frame}
+
+%plot slide
+\begin{frame}[fragile]
+\frametitle{Make a plot}
+
+Here is a very ugly plot:
+<<plotsomething, echo = FALSE, message = FALSE, warning=FALSE, fig.width=3.5, fig.height=3.5, fig.align='center'>>=
+library(palmerpenguins)
+library(ggplot2)
+p <- ggplot()+
+  geom_bar(data = penguins, aes(x = body_mass_g, color = island))+ #drawing the bar graph
+  geom_point(data = penguins, aes(x = body_mass_g, y = bill_length_mm, color = species, size = 5))+ #drawing the scatter plot
+  scale_color_manual(name = "Islands", values  = c("#57aeb2", "#77AAFF", "#0095B6", "#0892D0", "#0073E5", "#003972"))+ #setting the color for the outline
+  scale_fill_manual(values = c("#57aeb2", "#77AAFF", "#0095B6", "#0892D0", "#0073E5", "#003972"))+ #setting the color for the fill
+  labs(x = "Body Mass", y = "Flipper Length", title = "Penguins")+ #labeling the graph
+  scale_size_continuous(guide = "none" )+ #removing size of dots from legend
+  theme_dark() #changing the background color
+
+p
+@
+
+\end{frame}
+
+
+%CV link slide
+
+
+
+\end{document}
