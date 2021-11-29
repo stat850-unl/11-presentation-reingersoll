@@ -3,8 +3,8 @@ title: "Introduction"
 author: "Rene Ingersoll"
 date: "11/27/2021"
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -59,4 +59,4 @@ p
 
 ## Link to CV:
 
-- Here is where my link will go
+- Here is a link to my CV: https://reingersoll.github.io/CV.html

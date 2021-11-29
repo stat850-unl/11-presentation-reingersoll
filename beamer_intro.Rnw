@@ -53,6 +53,13 @@ p
 
 %CV link slide
 
+\begin{frame}{Link to CV}
+Here is a link to my CV: https://reingersoll.github.io/CV.html
+\end{frame}
+
+
+
+
 
 
 \end{document}
