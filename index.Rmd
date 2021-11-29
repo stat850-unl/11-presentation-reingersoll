@@ -9,9 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Assignment 12
+## Assignment 12
 
-# Links
+### Links
 
 isoslides created with Rmarkdown
   - Link: reingersoll.github.io/isoslides_intro.html
@@ -21,3 +21,6 @@ Beamer slides created with LaTex
   
 CV created with an Rmarkdown template
   - Link: reingersoll.github.io/CV.html
+
+#### Note of Issue:
+Issue hosting this document at https://stat850-unl.github.io/12-presentation-<your-gh-username-here>/, correcting my personal location for the file. Instead I hosted it on my github.io repository. Also, I apologize for the mess of this repository from as I have used it for other classes.
