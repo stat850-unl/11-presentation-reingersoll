@@ -1,0 +1,24 @@
+---
+title: "index"
+author: "Rene Ingersoll"
+date: "11/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Assignment 12
+
+# Links
+
+isoslides created with Rmarkdown
+  - Link: reingersoll.github.io/isoslides_intro.html
+
+Beamer slides created with LaTex
+  - Link: reingersoll.github.io/beamer_intro.pdf
+  - Beamer did not generate an html document, so I was unsure how to host it and seemed only the PDF document worked to host
+  
+CV created with an Rmarkdown template
+  - Link: reingersoll.github.io/CV.html
