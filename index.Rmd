@@ -18,7 +18,6 @@ isoslides created with Rmarkdown
 
 Beamer slides created with LaTex
   - Link: reingersoll.github.io/beamer_intro.pdf
-  - Beamer did not generate an html document, so I was unsure how to host it and seemed only the PDF document worked to host
   
 CV created with an Rmarkdown template
   - Link: reingersoll.github.io/CV.html
